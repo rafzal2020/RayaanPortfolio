@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Chakra+Petch:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Chakra+Petch:wght@300&family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(235, 69, 95);
+}
+
+div.ui {
+    position: fixed;
+}
+
+header.title {
+    position: fixed;
+    left: 85px;
+    bottom: 950px;
+    
+}
+
+header.title a {
+    display: block;
+    font-size: 60px;
+    font-stretch: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    line-height: 1.4em;
+    text-decoration: none;
+    color: rgb(252, 255, 231);
+}
+
+header.title text {
+    font-size: 25px;
+    position: relative;
+    bottom: 35px;
+    letter-spacing: 0.24em;
+}
+
+header.title text.copyright {
+    bottom: -970px;
+    left: -320px;
+    text-transform: none;
+    font-size: 15px;
+    letter-spacing: normal;
+}
+
+header.title div.links {
+    position: absolute;
+    bottom: -900px;
+    left: -25px;
+    list-style: none;
+}
+
+.title .links li a{
+    font-size: 15px;
+    text-transform: none;
+    color: black;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: 0.5s;
+}
+
+.title .links li a:hover {
+    color: rgb(252, 255, 231);
+}
+
+.title .links .selected a:active {
+    color: black;
+}
+
+.title .links .imgs {
+    width: 15px;
+}
+
+div ul.tabs {
+    position: relative;
+    left: -1140px;
+    bottom: -350px;
+}
+
+div ul.tabs li {
+    position: relative;
+    list-style: none;
+    width: 100px;
+    padding: 5px;
+    display: inline;
+    margin: auto;
+}
+
+div ul.tabs li a {
+    text-decoration: none;
+    color: rgb(252, 255, 231);
+    font-size: 35px;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: 0.5s;
+}
+
+div ul.tabs li a.dot {
+    pointer-events: none;
+}
+
+
+div ul.tabs li a:hover{
+    color: rgb(130, 148, 196);
+
+}
+
+div.pages {
+    margin: 0;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(252, 255, 231);
+    font-weight: 10;
+}
+
+#about {
+    position: absolute;
+    font-size: 50px;
+}
+
+#about div.main {
+    position: absolute;
+    right: 220px;
+    bottom: -550px;
+}
+#about p.main-bio {
+    position: absolute;
+    bottom: -700px;
+    right: -1170px;
+    line-height: 2em;
+    text-align: right;
+}
+#about text.line {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 400px;
+    line-height: 350px;
+    position: absolute;
+    bottom: -540px;
+    right: -750px;
+    user-select: none;
+}
+
+#about div.my-tech {
+    position: relative;
+    bottom: -850px;
+    right: -120px;
+}
+
+#about h1.tech-stack {
+    font-size: 40px;
+    position: absolute;
+    margin-left: 80px;
+    bottom: -300px;
+    width: 4em;
+}
+
+li.group1 {
+    list-style: none;
+    position: relative;
+    right: -240px;
+    bottom: -310px;
+    display: inline;
+    padding: 10px;
+}
+
+img {
+    width: 40px;
+    display: inline;
+    justify-content: end;
+}
+
+#works {
+    position: absolute;
+    bottom: -1500px;
+    justify-content: right;
+    display: flex;
+}
+#works .works-list li {
+    list-style: none;
+    text-decoration: none;
+    padding: 85px;
+}
+#works .works-list li a {
+    text-decoration: none;
+    color: rgb(252, 255, 231);
+    position: relative;
+    bottom: 50px;
+    left: 800px;
+    text-align: right;
+    font-size: 50px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: 0.5s;
+} 
+
+#works .works-list li a:hover {
+    color: rgb(130, 148, 196);
+}
+
+#works .works-list .github-external {
+    text-decoration: none;
+    color: rgb(252, 255, 231);
+    position: relative;
+    bottom: -1230px;
+    left: 890px;
+    font-size: 30px;
+    text-align: left;
+}
+
+#contact {
+    position: relative;
+    bottom: -4100px;
+}
+
+#contact h1 a{
+    position: relative;
+    right: 1130px;
+    bottom: 100px;
+    text-decoration: none;
+    color: rgb(252, 255, 231);
+    font-size: 40px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: 0.5s;
+}
+
+#contact h1 a:hover {
+    color: rgb(130, 148, 196);
+}
